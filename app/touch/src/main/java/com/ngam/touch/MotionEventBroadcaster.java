@@ -1,11 +1,12 @@
 package com.ngam.touch;
 
-import android.util.Log;
 import android.view.MotionEvent;
 
+import androidx.annotation.Keep;
 import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.MutableLiveData;
 
+@Keep
 public class MotionEventBroadcaster {
     private static MutableLiveData<MotionEvent> motionEventMutableLiveData = new MutableLiveData<>();
 

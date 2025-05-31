@@ -9,7 +9,7 @@ import android.net.Uri;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-
+@Keep
 public class StartUpDetector extends ContentProvider {
 
     @Override
